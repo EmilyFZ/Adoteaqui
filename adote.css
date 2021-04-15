@@ -1,0 +1,120 @@
+
+body{
+    background-color: rgb(231, 138, 31);
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    height: 100px;
+    align-items:center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    max-width: 10000px;
+}
+
+.ADOTEAQUI {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 10000px;
+    font-size:medium;
+    height: 50px;
+    font-size:larger;
+    justify-content: space-around;
+    background-color: yellow;
+    
+}
+
+.ADOTEAQUI:hover {
+background-color: black;
+color: white;
+font-size: xx-large;
+transition: color 3s;
+}
+
+.menu:hover {
+    background-color: palevioletred;
+    color: black;
+    transition: 3s;
+    font-size:large;
+}
+
+.container div {
+
+    height: 30px;
+width:230px;
+border: 1 px solid black;
+padding: 20px;
+
+}
+.menu {
+background-color: blanchedalmond;
+text-align: center;
+display: inline-block;
+    border: 1px solid #CCCCCC;
+    margin: 0 auto;
+    max-width: 700px;
+    font-size: xx-large;
+    justify-content: space-around;
+    font-weight: bold;
+    transition: color 3s;
+}
+
+.imagens {
+    display:flex;
+    flex-direction:column;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+}
+
+#cachorro1 {
+    width: 300px;
+    height: 400px;
+}
+
+#cachorro2 {
+    width: 300px;
+    height: 400px;
+}
+
+#gato2{
+    width: 300px;
+    height: 400px;
+}
+#gato3{
+    width: 300px;
+    height: 400px;
+
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    display: inline-block;
+    background-color:rgb(240, 239, 187);
+    border: 1px solid #CCCCCC;
+    margin: 0 auto;
+    max-width: 1500px;
+    font-size: 14px;
+}
+@media (max-width: 700px){
+    .ADOTEAQUI{
+        display: none;
+    }
+    .container{
+        display: list-item;
+        width: auto;
+    height: auto;
+    position:absolute;
+    
+    }
+
+    .body{
+        background-color: brown;
+    }
+    
+}
